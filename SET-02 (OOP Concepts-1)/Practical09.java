@@ -1,8 +1,8 @@
 
 public class Practical09 {
     public static void main(String[] args) {
-        Rectangle r1 = new Rectangle(4, 40);
-        Rectangle r2 = new Rectangle(3.5, 35.9);
+        Rectangle09 r1 = new Rectangle09(4, 40);
+        Rectangle09 r2 = new Rectangle09(3.5, 35.9);
 
         r1.display();
         System.out.println();
@@ -19,11 +19,11 @@ public class Practical09 {
     }
 }
 
-class Rectangle {
+class Rectangle09 {
     double width;
     double height;
 
-    Rectangle(double width, double height) {
+    Rectangle09(double width, double height) {
         this.width = width;
         this.height = height;
     }

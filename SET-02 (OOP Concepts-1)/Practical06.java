@@ -5,7 +5,7 @@ public class Practical06 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Rectangle 1 (Default):");
-        Rectangle r1 = new Rectangle();
+        Rectangle06 r1 = new Rectangle06();
         System.out.println("Area: " + r1.getArea());
         System.out.println("Perimeter: " + r1.getPerimeter());
 
@@ -15,7 +15,7 @@ public class Practical06 {
         System.out.print("Height: ");
         double h = scanner.nextDouble();
 
-        Rectangle r2 = new Rectangle(w, h);
+        Rectangle06 r2 = new Rectangle06(w, h);
         System.out.println("Rectangle 2:");
         System.out.println("Area: " + r2.getArea());
         System.out.println("Perimeter: " + r2.getPerimeter());
@@ -24,16 +24,16 @@ public class Practical06 {
     }
 }
 
-class Rectangle {
+class Rectangle06 {
     double width;
     double height;
 
-    Rectangle() {
+    Rectangle06() {
         this.width = 1;
         this.height = 1;
     }
 
-    Rectangle(double width, double height) {
+    Rectangle06(double width, double height) {
         this.width = width;
         this.height = height;
     }

@@ -1,71 +1,12 @@
-# SET-05 (Interface & Abstract Class)
+# SET-05 (Interfaces, Abstraction & Packages)
 
-## Compilation Guide
-To create all class files, run:
-```bash
-javac *.java
-```
+Transitions into fully enforcing rigid behaviors, encapsulating functionality purely via non-instantiable Abstract interfaces alongside Java Package implementations cross-file.
 
-## Practical 16: Interface (Classify)
-**Problem Statement:**
-Implement a method `getDivision(double average)` in a class `Result` implementing an interface `Classify`. Return "First Division" if average >= 60.
+## Practical List
 
-**Sample Output:**
-```text
-Enter percentage: 75
-Division: First Division
-```
-
----
-
-## Practical 17: Multiple Interfaces
-**Problem Statement:**
-Create interfaces `Exam` (isPassed) and `Classify` (getDivision). Class `Result` should implement both.
-
-**Sample Output:**
-```text
-Enter Marks: 45
-Status: Passed
-Division: Pass
-```
-
----
-
-## Practical 18: Abstract Class (Vehicle)
-**Problem Statement:**
-Create an abstract class `Vehicle` with abstract methods `fuelType()` and `noOfWheels()`. Subclasses `Car` and `Bike` should implement these.
-
-**Sample Output:**
-```text
---- Car Details ---
-Fuel: Petrol/Diesel
-Wheels: 4
-
---- Bike Details ---
-Fuel: Petrol
-Wheels: 2
-```
-
----
-
-## Practical 19: Packages (Student & Exam)
-**Problem Statement:**
-Use packages `student` (Student class) and `exam` (Result class inheriting Student). calculate and display mark sheet.
-
-**Sample Output:**
-```text
-Enter Roll No: 101
-Enter Name: Student Name
-Enter Marks 1: 80
-Enter Marks 2: 90
-Enter Marks 3: 85
-
---- Mark Sheet ---
-Roll No: 101
-Name: Student Name
-Marks 1: 80
-Marks 2: 90
-Marks 3: 85
-Total: 255
-Average: 85.0
-```
+| # | File Name | Description |
+| :--- | :--- | :--- |
+| **16** | `Practical16.java` | Constructing behavior Interface abstractions implementing fixed mandatory method contracts un-reliant on hierarchy trees. |
+| **17** | `Practical17.java` | Multiple-Inheritance workaround allowing one concrete Java class to extract requirements from numerous interfaces concurrently. |
+| **18** | `Practical18.java` | Abstract entity configurations requiring distinct child models to explicitly redefine overarching parent functionalities entirely locally. |
+| **19** | `Practical19.java` | Java Packaging layout loading entity configurations seamlessly from externalized directories mapping packages correctly runtime. |

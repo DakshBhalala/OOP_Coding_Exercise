@@ -7,7 +7,7 @@ public class Practical17 {
         System.out.print("Enter Marks: ");
         int marks = scanner.nextInt();
 
-        Result r = new Result();
+        Result17 r = new Result17();
         if (r.isPassed(marks)) {
             System.out.println("Status: Passed");
             System.out.println("Division: " + r.getDivision(marks));
@@ -20,15 +20,15 @@ public class Practical17 {
     }
 }
 
-interface Exam {
+interface Exam17 {
     boolean isPassed(int mark);
 }
 
-interface Classify {
+interface Classify17 {
     String getDivision(double average);
 }
 
-class Result implements Exam, Classify {
+class Result17 implements Exam17, Classify17 {
     public boolean isPassed(int mark) {
         return mark >= 35;
     }
