@@ -1,3 +1,0 @@
-Java is an object-oriented programming language.
-It relies heavily on abstractions and classes.
-File handling in Java is highly structured!
