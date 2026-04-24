@@ -1,13 +1,25 @@
-# SET-01 (Basics)
+## Practical01
+![Practical01 Output](outputs/Practical01.png)
 
-This set covers foundational Java programming concepts including input parsing, mathematical operations, conditionals, and standard console output formatted strings.
+---
 
-## Practical List
+## Practical02
+![Practical02 Output](outputs/Practical02.png)
 
-| # | File Name | Description |
-| :--- | :--- | :--- |
-| **01** | `Practical01.java` | Meters to feet converter. |
-| **02** | `Practical02.java` | Solves a system of linear equations using Cramer's rule. |
-| **03** | `Practical03.java` | Vowel detection program utilizing basic String scanning. |
-| **04** | `Practical04.java` | Calculates Compound Interest via Math.pow utilities. |
-| **05** | `Practical05.java` | Computes the area of a mathematical triangle. |
+---
+
+## Practical03
+![Practical03 Output](outputs/Practical03.png)
+
+---
+
+## Practical04
+![Practical04 Output](outputs/Practical04.png)
+
+---
+
+## Practical05
+![Practical05 Output](outputs/Practical05.png)
+
+---
+
