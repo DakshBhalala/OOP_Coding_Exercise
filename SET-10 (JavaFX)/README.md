@@ -7,4 +7,3 @@
 ![Practical33 Output](outputs/Practical33.png)
 
 ---
-
